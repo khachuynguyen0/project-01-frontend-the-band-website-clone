@@ -1,0 +1,117 @@
+@media (max-width:46.1875em) {
+
+  /* Header: để menu thành dạng dọc */
+  #nav li {
+    display: block;
+    text-align: left;
+  }
+
+  #nav li a {
+    padding: 12px 16px;
+    line-height: 1.4;
+  }
+
+
+  /* Slider text nhỏ lại */
+  #slider .text-heading {
+    font-size: 18px;
+  }
+
+  #slider .text-description {
+    font-size: 14px;
+  }
+
+  /* Content section full width */
+  #content .content-section {
+    width: 100%;
+    padding: 32px 12px;
+  }
+
+  /* Cột (col) -> 100% */
+  .col-two, 
+  .col-three,
+  .col-one {
+    width: 100%;
+  }
+
+  /* Ảnh trong place/member */
+  #content .place-img,
+  #content .content-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Modal nhỏ lại */
+  .modal .modal-container {
+    width: 100%;
+    margin: 0 8px;
+  }
+
+  /* Form control to hơn */
+  .contact-form .form-control {
+    font-size: 16px;
+  }
+
+  /* Footer icons cách nhau */
+  #footer .socials-list a {
+    padding: 0 8px;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  /*Mobile ko can search*/
+  #header .search-btn {
+    display: none;
+  }
+
+  /*Mobile can menu*/
+  #header .mobile-menu-btn {
+    display: inline-block;
+  }
+
+  
+  /*add  */
+  #header{
+    overflow: hidden;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+    color: white;
+  }
+
+  #nav .subnav a{
+    color: white;
+  }
+
+  /*add 2*/
+  .member-item{
+    margin: 20px 0px;
+  }
+  .btn.js-buy-tickets{
+    width: 100%;
+    line-height: 40px;
+  }
+
+  .place-item{
+    margin: 20px 0px;
+  }
+
+  .contact-info{
+    margin-bottom: 20px;
+  }
+
+  .form-control{
+    margin: 5px;
+  }
+
+  .btn-send{
+    width: 100%;
+    line-height: 40px;
+  }
+
+
+}

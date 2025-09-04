@@ -1,0 +1,21 @@
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  /* Styles for tablet devices */
+  .btn.js-buy-tickets{
+    width: 100%;
+    line-height: 40px;
+  }
+
+  .btn-send{
+    width: 100%;
+    line-height: 40px;
+  }
+
+  .socials-list a{
+    font-size: 80px;
+    margin: 0px 16px;
+  }
+
+
+
+
+}

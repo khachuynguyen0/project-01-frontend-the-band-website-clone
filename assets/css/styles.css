@@ -1,0 +1,543 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mt-8{
+    margin-top: 8px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+/*| tn  |*/
+.row{
+     margin-left: -8px;
+     margin-right: -8px;
+}
+
+.pull-right{
+    float: right;
+}
+
+.btn {
+    margin-top: 12px;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 5px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding: 0 8px;
+
+}
+.text-center {
+    text-align: center;
+}
+.col-one{
+    width: 100%;
+}
+
+.col-two{
+    width: 50%;
+}
+
+.col-three{
+    width: 33.33333%;
+}
+
+/*| main  |*/
+#main {
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Arial', sans-serif;
+
+}
+/*| -bd  |*/
+
+.clear {
+    clear: both;
+}
+
+/*| Tu dinh nghia class-bd  |*/
+.text-white {
+    color: #fff;
+}
+
+/*| header-bd  |*/
+#header {
+    height: 46px;
+    background-color: #000;
+
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+
+    z-index: 1;
+    
+} 
+
+/*| nav-bd  |*/
+
+#nav {
+    display: inline-block;
+}
+
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    
+    text-decoration: none;
+    
+    padding: 0 24px;
+    line-height: 46px;
+
+    display: inline-block;
+    
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav .subnav li {
+    display: block;
+}
+
+#nav .subnav a {
+    color: #000;
+    display: block;
+    padding: 0 16px;
+    line-height: 38px;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a{
+    color: #000;
+    background-color: #aaa;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+}
+
+#header .mobile-menu-btn,
+#header .search-btn {
+    float: right;
+    display: inline-block;
+}
+
+
+#header .search-btn:hover .ti-search{
+    background-color: red;
+    color: #fff;
+}
+
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+#header .menu-icon:hover{
+    color: black;
+}
+
+#header .menu-icon,
+#header .ti-search {
+    color: #fff;
+    font-size: 24px;
+    line-height: 46px;
+    padding: 0 16px;
+    display: inline-block;
+}
+
+/*pc ko can menu*/
+#header .mobile-menu-btn {
+    display: none;
+}
+
+/*| nav-end  |*/
+
+/*| header-end  |*/
+
+
+/*| slider-bd  |*/
+#slider {
+   
+    position: relative;
+
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(/assets/img/slider/slider3.jpg) top center / cover no-repeat;
+    
+} 
+
+#slider .text-content {
+    color: #fff;
+    bottom: 47px;
+    position: absolute;
+
+    width: 100%;
+    text-align: center;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .text-description {
+    margin-top: 10px;
+}
+/*| slider-end  |*/
+
+
+/*| content-bd  |*/
+#content {
+
+} 
+
+#content .content-section {
+    width: 800px;
+    max-width: 100%;
+
+
+    padding: 64px 0 112px;
+
+    /*| Se auto can giua  |*/
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;/*| k.cach tung k.tu  |*/
+    text-align: center;
+}
+
+#content .section-sub-heading {
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+    margin: 25px;
+}
+
+#content .about-text {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.6;/*| k.cach tung dong  |*/
+}
+
+/* theband-section-bd */
+#content .member-list {
+    margin-top: 46px;
+    /* overflow: hidden; */
+    /* display: inline-block; */
+}
+
+
+
+#content .item-Name {
+    font-size: 20px;
+    
+}
+
+#content .content-img {
+    width: 200px;
+    height: 300px;
+    border-radius: 4px;
+
+}
+/* theband-section-end */
+
+/* tour-section-bd */
+#content .tour-section {
+    background-color: #000;
+    /* color: #fff; */
+}
+
+#content .tickets-list{
+    /* color: #fff; */
+    margin-top: 40px;
+    background-color: #fff;
+    list-style-type: none;
+}
+
+.tickets-list li {
+    color: #757575;
+    font-size: 15px;
+    padding: 10px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tickets-list .sold-out {
+    background-color: red;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px;
+    margin-left: 16px;
+}
+
+.tickets-list .quality {
+
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    float: right;
+    margin-right: 16px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    margin-top: -2px;
+}
+
+/* PLACE-bd */
+
+#content .places-list {
+    margin-top: 46px;
+    color: #fff;
+    padding-bottom: 48px;
+}
+
+
+#content .place-body {
+    background-color: #fff;
+    color: #000;
+    padding: 16px;
+    font-size: 15px;
+}
+
+#content .place-img {
+    width: 200px;
+    height: 300px;
+
+    width: 100%;
+    display: block;
+    
+}
+
+#content .place-img:hover {
+    opacity: 0.6;
+}
+
+#content .place-heading {
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+#content .place-time {
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+#content .place-description {
+    line-height: 1.6;
+}
+
+
+
+/* PLACE-end */
+/* tour-section-end */
+
+
+/*contac-content-bd*/
+.contact-content{
+    margin-top: 48px;
+}
+
+.contact-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i[class*="ti-"]{
+   width: 30px;
+   display: inline-block;
+}
+.contact-form .form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+
+/*| map-section  |*/
+.map-section img{
+    width: 100%;
+
+
+}
+
+
+/*| content-end  |*/
+
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+
+} 
+
+#footer .socials-list {
+    font-size: 24px;
+}
+
+#footer .socials-list a{
+    text-decoration: none;
+    color: #000;
+}
+
+#footer .socials-list a:hover{
+    opacity: 0.8;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+
+    /*| none-> tat  |*/
+    display: none;
+
+
+}
+
+/*| flex-> Bat :)) display: flex; |*/
+.modal.open{
+    display: flex;
+
+}
+
+.modal .modal-container {
+    background-color: #fff;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+
+    position: relative;
+    animation: modalFadeIn ease 0.3s;
+    
+}
+
+.modal .modal-header{
+    background-color: green;
+    height: 130px;
+    font-size: 30px;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal .modal-close{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+
+.modal .modal-close:hover{
+    opacity: 1;
+}
+
+.modal .modal-body{
+   
+    margin: 20px;
+}
+
+.modal .modal-label{
+    font-weight: 700;
+    font-size: 15x;
+    
+}
+
+.modal .modal-input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.modal #buy-tickets{
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    background-color: green;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
+
+.modal #buy-tickets:hover{
+    opacity: 1;
+}
+.modal .modal-footer{
+    padding: 12px 16px;
+    text-align: right;
+}
+
+@keyframes modalFadeIn{
+    /*chay tu treng xuong duoi*/
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
